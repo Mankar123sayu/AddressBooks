@@ -9,8 +9,10 @@ namespace AddressBookProgram
         {
             Console.WriteLine("Welcome to Address Book Program");
             AddressBokkMain main = new AddressBokkMain();
-            main.AddContact();
-            main.Display();
+           // main.AddContact();
+           // main.Display();
+            main.DeleteContact();
+
         }
     }
 }
